@@ -1,9 +1,11 @@
 import { Level } from './level';
 import { Display } from './display';
-
+import { ILogger } from './logger.interface';
 import { contain } from './include';
 
-export class Logger<T> {
+
+
+export class Logger<T> implements ILogger<T>{
 
     constructor(
         private name: string,
