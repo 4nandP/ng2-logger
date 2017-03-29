@@ -39,7 +39,11 @@
     "source-map-loader": "^0.1.5",
     "ts-helpers": "1.1.1",
     "tslint": "^3.10.2",
-    "tslint-loader": "^2.1.4"
+    "tslint-loader": "^2.1.4",
+    "@angular/core": "^2.4.7"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "@angular/core": "^2.4.7"
+  }
 }
